@@ -27,3 +27,14 @@ HELP.md
 
 ### VS Code ###
 .vscode/
+config-server/src/test/
+service-ribbon/target/generated-sources/
+service-ribbon/target/generated-test-sources/
+service-zuul/src/test/
+service-zuul/target/generated-sources/
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+out
+gen
