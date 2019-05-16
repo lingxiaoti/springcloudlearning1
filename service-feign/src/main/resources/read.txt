@@ -1,0 +1,2 @@
+Feign是自带断路器的,在D版本的springcloud中,它没有默认打开,需要在配置文件中打开它,设置属性为:
+feign.hystrix.enabled=true
