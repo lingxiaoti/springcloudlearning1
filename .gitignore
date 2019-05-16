@@ -16,7 +16,6 @@ HELP.md
 *.iws
 *.iml
 *.ipr
-
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -38,3 +37,8 @@ service-zuul/target/generated-sources/
 # IntelliJ project files
 out
 gen
+*/.mvn/
+*/mvnw
+*/mvnw.cmd
+*/*.iml
+*/target
