@@ -11,5 +11,5 @@ spring:
           uri: https://github.com/lingxiaoti/SpringcloudConfig # 配置git仓库的地址
           search-paths: config-repo # git仓库地址下的相对地址，可以配置多个，用,分割。基于uri地址下的
       label: master  #master主分支
-      username:
-      password:
+      username:  #git 仓库账号   因为github上面的仓库是公开的,所以在这里不用填写账号和密码都是可以的
+      password:  #git仓库的密码
