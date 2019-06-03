@@ -27,6 +27,6 @@ public class ServiceHiApplication {
 
     @RequestMapping("/hi/{name}")
     public String  home(@PathVariable("name") String name){
-        return  "hi "+name+",i am from port:" +port;
+        return  "hi "+"你好"+",i am from port:" +"端口号";
     }
 }

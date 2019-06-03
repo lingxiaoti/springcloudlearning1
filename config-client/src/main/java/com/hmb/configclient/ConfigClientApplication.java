@@ -13,7 +13,6 @@ import org.springframework.context.ApplicationContext;
 public class ConfigClientApplication {
     public static void main(String[] args) {
         ApplicationContext applicationContext = SpringApplication.run(ConfigClientApplication.class,args);
-        System.out.println("spring容器: " + applicationContext
-        );
+        System.out.println("spring容器: " + applicationContext);
     }
 }

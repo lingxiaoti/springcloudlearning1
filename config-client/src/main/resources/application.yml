@@ -6,5 +6,5 @@ spring:
   cloud:
     config:
       label: master
-      profile: dev
+      profile: test
       uri: http://localhost:8888/ #指明配置服务中心的地址
