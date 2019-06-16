@@ -1,0 +1,10 @@
+server:
+  port: 8889
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false #不注册到eureka服务去
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/

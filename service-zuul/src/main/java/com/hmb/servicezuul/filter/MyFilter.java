@@ -2,7 +2,8 @@ package com.hmb.servicezuul.filter;
 
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 
@@ -18,7 +19,7 @@ import java.io.IOException;
 @Component
 public class MyFilter extends ZuulFilter {
 
-    private Logger logger = Logger.getLogger(MyFilter.class);
+    private Logger logger = LoggerFactory.getLogger(MyFilter.class);
     @Override
     public String filterType() {
         return "pre";

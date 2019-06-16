@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: spring-cloud-config-server
+    name: config-server
   cloud:
     config:
       server:
@@ -13,3 +13,8 @@ spring:
       label: master  #master主分支
       username:  #git 仓库账号   因为github上面的仓库是公开的,所以在这里不用填写账号和密码都是可以的
       password:  #git仓库的密码
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8889/eureka/
+      #defaultZone: http://localhost:8761/eureka/
